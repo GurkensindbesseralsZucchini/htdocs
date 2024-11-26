@@ -1,0 +1,55 @@
+/* Setze das Bild als Hintergrund für die Seite */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('dein-bild.jpg'); /* Ersetze 'dein-bild.jpg' mit dem tatsächlichen Bildpfad */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Container für den Inhalt */
+.container {
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.5); /* Leichte Transparenz, um den Text leserlich zu machen */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Überschrift */
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+/* Slogan */
+.slogan {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+/* Stil für die Buttons */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
